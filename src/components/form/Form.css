@@ -1,0 +1,54 @@
+/* Form.css */
+
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-row {
+    display: flex;
+    margin-bottom: 24px;
+  }
+  
+  .form-column {
+    flex: 1;
+    margin-right: 32px;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .form-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .form-reset-button {
+    background-color: #ccc;
+    margin-right: 10px;
+  }
+  
+  .form-submit-button {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Add any additional styling as needed */
+  

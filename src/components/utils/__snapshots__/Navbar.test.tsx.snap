@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "padding": "40px",
+    }
+  }
+>
+  <img
+    alt="Navbar Image"
+    src="mainlogo.svg"
+    style={
+      Object {
+        "display": "block",
+        "height": "auto",
+        "margin": "0 auto",
+        "width": "250px",
+      }
+    }
+  />
+</div>
+`;

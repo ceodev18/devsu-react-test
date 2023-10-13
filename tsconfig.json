@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "tsconfig.test.json", "tsconfig.lint.json"  ]
 }

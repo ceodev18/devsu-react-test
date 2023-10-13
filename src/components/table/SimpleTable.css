@@ -1,0 +1,103 @@
+/* SimpleTable.css */
+
+/* Style for the table */
+.simple-table {
+  border-collapse: collapse;
+  width: 100%;
+  float: left;
+}
+
+/* Style for table headers */
+.th-style {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 16px;
+}
+
+/* Style for table cells */
+.td-style {
+  border-bottom: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+}
+
+/* Style for circular elements in the "Logo" column */
+.circle-style {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: blue;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+/* Style for the select container */
+.select-container {
+  float: right;
+  padding: 8px;
+}
+
+/* Style for the label showing the number of results */
+.label-style {
+  font-size: 14px;
+  float: left;
+  padding: 8px;
+}
+
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  cursor: pointer;
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+.dots {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: none;
+  z-index: 1000;
+  float: left; /* Add this line to make it float to the left */
+  margin-top: 5px; /* Adjust the margin-top as needed */
+}
+
+.dropdown.open .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu li {
+  cursor: pointer;
+  padding: 8px 16px;
+  display: block; /* Ensure list items are displayed as blocks */
+}
+
+/* Add any additional styling as needed */
+
+
+/* Add any additional styling as needed */
